@@ -16,5 +16,6 @@ target_sources(
         src/func.cpp
 )
 
-target_link_libraries(${PROJECT_NAME} PRIVATE lib_static_project)
+target_link_libraries(${PROJECT_NAME} PRIVATE template_static_lib)
+#target_link_libraries(${PROJECT_NAME} PRIVATE lib_static_project)
 

@@ -4,7 +4,6 @@ project(template_static_lib VERSION 1.0.0
     HOMEPAGE_URL https://blog.csdn.net/Chris_Tsai)
 
 add_library(${PROJECT_NAME} STATIC ${PROJECT_SOURCE_DIR}/src/static_func.cpp)
-add_library(lib ALIAS ${PROJECT_NAME})
 
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_11)
 
